@@ -4,11 +4,21 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /*
-    Created on : May 18, 2020, 3:27:53 PM
+    Created on : May 19, 2020, 6:05:45 PM
     Author     : Alex Videnov
 */
 
-@import 'landing_page/nav-menu.scss';
-@import 'landing_page/hero.scss';
-@import 'landing_page/slideshow.scss';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+}
 
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}

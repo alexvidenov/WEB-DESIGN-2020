@@ -20,3 +20,17 @@ and open the template in the editor.
         @content;
     }
 }
+
+@mixin button{
+    padding: 1.3rem;
+    display: inline-block;
+    background-color: $accent-color;
+    border: 2px solid $accent-color;
+    border-radius: 5rem;
+    transition: background-color 1s;
+        
+    &:hover{
+        color: $accent-color;
+        background-color: rgba(0,0,0,0.2);
+    }
+}

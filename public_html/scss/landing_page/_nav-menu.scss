@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:40:12 AM
+    Author     : Alex Videnov
+*/
+
+@import '../mixins.scss'; 
+@import '../settings.scss';
+@import '../global.scss';
+
+.main-navigation{
+  border-top: 1px solid $accent-color;
+  border-bottom: 1px solid $accent-color;
+  margin: 2em;
+  position: absolute;
+}
+
+ul{
+  @include reset;
+}
+
+.menu{
+  display: flex;  
+  flex-direction: column;
+  
+  @include mobile{
+    flex-direction:row;
+  }
+  
+  li{
+    display: block;
+    text-transform: uppercase;
+     
+    a{
+        display: flex;
+        text-align: center;
+        text-decoration: none;
+        color: $navigation-link-color;
+        padding: 1rem; 
+        
+        &:hover{
+           background: $navigation-link-color;
+           color: $navigation-link-color-on-hover; 
+           transition: 1s;
+        }
+    }
+  } 
+} 
+
+.dropdown > a:after{
+  font-family: fontAwesome;
+  content: $dropdown-icon-unicode;
+  padding: 1px;
+  
+    .dropdown > a:after{
+        font-family: fontAwesome;
+        content: $dropdown-icon-unicode;
+        padding: 1px;
+        transform: rotate(-90deg); 
+    }
+}
+
+nav ul{
+    li:hover > ul{
+        display: block;
+        color: $navigation-link-color-on-hover;
+        padding-left: 2rem; 
+        transition: 1s;
+        
+        @include mobile{
+            padding-left:0;
+            background:$navigation-link-color;  
+            
+            a{
+              color: $navigation-link-color-on-hover;  
+            }
+        }
+    }
+    
+    ul{
+        display: none;
+        
+        @include mobile{
+            position:absolute; 
+        }
+        
+        ul{
+            @include mobile{
+                margin:0 0 0 100%;
+                box-shadow: 0 0 2px rgba(0, 0, 0, 0.6); 
+            } 
+        }
+    }
+}
+
+.sub-menu{
+    @include mobile{
+        li{
+            display: flex;
+            padding-right: 2em;
+        
+            &:hover, a:hover{
+                background: $background-list-item-color;
+                color: $navigation-link-color-on-hover; 
+                transition: 1s;
+            } 
+        }
+    }
+}
+
+.move-right{
+    margin-right: 3rem;
+    margin-top: 2rem;
+}
+
+.button{
+    @include button;
+    display: flex;
+    float: right;
+}
