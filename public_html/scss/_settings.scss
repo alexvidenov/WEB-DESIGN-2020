@@ -4,9 +4,16 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /*
-    Created on : May 18, 2020, 3:27:53 PM
+    Created on : May 19, 2020, 10:38:59 AM
     Author     : Alex Videnov
 */
 
-@import 'nav-menu';
+$mobile-breakpoint: 800px;
+
+$dropdown-icon-unicode: '\f0d7';
+
+
+$navigation-link-color: #777;
+$navigation-link-color-on-hover: #fff;
+$background-list-item-color: #ddd;
 

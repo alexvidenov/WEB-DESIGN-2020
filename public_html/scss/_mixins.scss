@@ -4,9 +4,19 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /*
-    Created on : May 18, 2020, 3:27:53 PM
+    Created on : May 19, 2020, 10:37:31 AM
     Author     : Alex Videnov
 */
 
-@import 'nav-menu';
+@import 'settings.scss';
 
+@mixin reset{
+    margin: 0; 
+    padding: 0;
+}
+
+@mixin mobile{
+    @media (min-width: #{$mobile-breakpoint}) {
+        @content;
+    }
+}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -5,9 +6,116 @@ and open the template in the editor.
 */
 /*
     Created on : May 18, 2020, 3:27:53 PM
-    Author     : User
+    Author     : Alex Videnov
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:40:12 AM
+    Author     : Alex Videnov
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:37:31 AM
+    Author     : Alex Videnov
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:38:59 AM
+    Author     : Alex Videnov
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:38:59 AM
+    Author     : Alex Videnov
 */
 * {
-  background-color: #333; }
+  box-sizing: border-box;
+  font-family: sans-serif; }
+
+.main-navigation {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin: 2em; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+.menu {
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 800px) {
+    .menu {
+      flex-direction: row; } }
+  .menu li {
+    display: block;
+    list-style-type: none;
+    text-transform: uppercase; }
+    .menu li a {
+      display: flex;
+      text-align: center;
+      text-decoration: none;
+      color: #777;
+      padding: 1rem; }
+      .menu li a:hover {
+        background: #777;
+        color: #fff;
+        transition: 1s; }
+
+.dropdown > a:after {
+  font-family: fontAwesome;
+  content: "";
+  padding: 1px; }
+  .dropdown > a:after .dropdown > a:after {
+    font-family: fontAwesome;
+    content: "";
+    padding: 1px;
+    transform: rotate(-90deg); }
+
+nav ul li:hover > ul {
+  display: block;
+  color: #fff;
+  padding-left: 2rem;
+  transition: 1s; }
+  @media (min-width: 800px) {
+    nav ul li:hover > ul {
+      padding-left: 0;
+      background: #777; }
+      nav ul li:hover > ul a {
+        color: #fff; } }
+nav ul ul {
+  display: none; }
+  @media (min-width: 800px) {
+    nav ul ul {
+      position: absolute; } }
+  @media (min-width: 800px) {
+    nav ul ul ul {
+      margin: 0 0 0 100%;
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.6); } }
+
+@media (min-width: 800px) {
+  .sub-menu li {
+    display: flex;
+    padding-right: 2em; }
+    .sub-menu li:hover, .sub-menu li a:hover {
+      background: #ddd;
+      color: #fff;
+      transition: 1s; } }
 
 /*# sourceMappingURL=style.css.map */
