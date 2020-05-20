@@ -43,7 +43,7 @@ ul{
         padding: 1rem; 
         
         &:hover{
-           background: $navigation-link-color;
+           background: $accent-color;
            color: $navigation-link-color-on-hover; 
            transition: 1s;
         }
@@ -54,13 +54,13 @@ ul{
 .dropdown > a:after{
   font-family: fontAwesome;
   content: $dropdown-icon-unicode;
-  padding: 1px;
+  padding: 2px;
   
     .dropdown > a:after{
         font-family: fontAwesome;
         content: $dropdown-icon-unicode;
         padding: 1px;
-        transform: rotate(-90deg); 
+        transform: rotateY(-90deg); 
     }
 }
 
@@ -118,7 +118,7 @@ nav ul{
 }
 
 .button{
-    @include button;
+    @include landing-page-button;
     display: flex;
     float: right;
 }

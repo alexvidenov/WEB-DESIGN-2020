@@ -36,13 +36,18 @@ and open the template in the editor.
         font-family: 'Roboto', sans-serif;   
     }
     
+    h2{
+        font-size: $font-size-medium;
+        font-family: 'Roboto', sans-serif;   
+    }
+    
     p{
         font-size: $font-size-normal;
         margin-bottom: 5rem;  
     }
     
     .btn{
-        @include button;
+        @include landing-page-button;
     }
 }
 
