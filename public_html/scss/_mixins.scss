@@ -10,11 +10,6 @@ and open the template in the editor.
 
 @import 'settings.scss';
 
-@mixin reset{
-    margin: 0; 
-    padding: 0;
-}
-
 @mixin mobile{
     @media (min-width: #{$mobile-breakpoint}) {
         @content;
@@ -56,7 +51,7 @@ and open the template in the editor.
 @mixin image-mixin{
     width: 300px;
     height: 225px;
-    margin: 0 20px 20px;
+    margin: 0 1.2rem 1.2rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -68,5 +63,22 @@ and open the template in the editor.
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+@mixin input-field{
+    background: transparent;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgba(255,255,255,0.24);
+    color: #fff;
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+    padding: 0.5rem 0rem 0.5rem 1.5rem;
+    transition: 0.8s all;
+                
+    &:focus{
+        outline: none;
+        border-color: #fff;
+    } 
 }
 

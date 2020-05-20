@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 20, 2020, 3:37:18 PM
+    Author     : Alex Videnov
+*/
+
+@import '../mixins.scss';
+
+.form-heading h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    color: #fff;
+}
+
+.input-box{
+    position: relative; 
+    
+    .icon{
+        position: absolute;
+        height: 2rem;
+        color: #fff;
+        line-height: 2rem;
+    }
+    
+    input{
+        @include input-field;
+        height: 2rem;
+    }
+            
+    textarea{
+       @include input-field;
+    }
+}
+        
+.submit-button button{
+    border: none;
+    outline: none;
+    width: 100%;
+    background: #fff;
+    color: #555;
+    height: 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+ 

@@ -71,10 +71,6 @@ li {
   margin: 2em;
   position: absolute; }
 
-ul {
-  margin: 0;
-  padding: 0; }
-
 .menu {
   display: flex;
   flex-direction: column; }
@@ -103,7 +99,7 @@ ul {
     font-family: fontAwesome;
     content: "";
     padding: 1px;
-    transform: rotateY(-90deg); }
+    transform: rotate(-90deg); }
 
 nav ul li:hover > ul {
   display: block;
@@ -233,7 +229,7 @@ and open the template in the editor.
 */
 /*
     Created on : May 19, 2020, 7:09:43 PM
-    Author     : User
+    Author     : Alex Videnov
 */
 .slideshow img {
   position: absolute;
@@ -242,7 +238,6 @@ and open the template in the editor.
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: -1;
   opacity: 0;
   transition: opacity 0.75s ease-in-out; }
 
@@ -293,7 +288,7 @@ body {
   .gallery-container .single-image {
     width: 300px;
     height: 225px;
-    margin: 0 20px 20px;
+    margin: 0 1.2rem 1.2rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -332,5 +327,129 @@ body {
     background-image: url("../images/thumbnails/img7.jpg"); }
   .gallery-container .img8 {
     background-image: url("../images/thumbnails/img8.jpg"); }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 20, 2020, 2:55:20 PM
+    Author     : Alex Videnov
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:37:31 AM
+    Author     : Alex Videnov
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:38:59 AM
+    Author     : Alex Videnov
+*/
+.contact-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .contact-container .form-container {
+    padding: 2.5rem 3rem 2.5rem 3rem;
+    background-image: linear-gradient(45deg, #56ab2f, #a8e063);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 20, 2020, 3:37:18 PM
+    Author     : Alex Videnov
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:37:31 AM
+    Author     : Alex Videnov
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:38:59 AM
+    Author     : Alex Videnov
+*/
+.form-heading h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  color: #fff; }
+
+.input-box {
+  position: relative; }
+  .input-box .icon {
+    position: absolute;
+    height: 2rem;
+    color: #fff;
+    line-height: 2rem; }
+  .input-box input {
+    background: transparent;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.24);
+    color: #fff;
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+    padding: 0.5rem 0rem 0.5rem 1.5rem;
+    transition: 0.8s all;
+    height: 2rem; }
+    .input-box input:focus {
+      outline: none;
+      border-color: #fff; }
+  .input-box textarea {
+    background: transparent;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.24);
+    color: #fff;
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+    padding: 0.5rem 0rem 0.5rem 1.5rem;
+    transition: 0.8s all; }
+    .input-box textarea:focus {
+      outline: none;
+      border-color: #fff; }
+
+.submit-button button {
+  border: none;
+  outline: none;
+  width: 100%;
+  background: #fff;
+  color: #555;
+  height: 40px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
