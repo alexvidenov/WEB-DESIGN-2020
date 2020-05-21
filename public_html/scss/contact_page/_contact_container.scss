@@ -9,6 +9,7 @@ and open the template in the editor.
 */
 
 @import '../mixins.scss';
+@import '../settings.scss';
 
 .contact-container{
     width: 100%;
@@ -21,7 +22,7 @@ and open the template in the editor.
     
     .form-container{
         padding: 2.5rem 3rem 2.5rem 3rem;
-        background-image: linear-gradient(45deg, #56ab2f, #a8e063);
+        background-image: linear-gradient(45deg, $accent-color, $default-background);
         border-radius: 0.5rem;
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }

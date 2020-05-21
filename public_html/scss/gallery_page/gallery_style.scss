@@ -9,17 +9,17 @@ and open the template in the editor.
 */
 
 @import '../mixins.scss';
+@import "../settings.scss";
 
 body{
-    background-image: linear-gradient(to right, black, rgba(0,0,0,0.7));
+    background-image: linear-gradient(to right, black, rgba(0,0,0,0.5));
 }
 
 .gallery-header{
-    color: rgba(255,255,255,0.8);
     padding: 3rem;
     text-align: center;
-    font-size: 30px;
-    font-family: baloo;  
+    font-size: $font-size-normal; 
+    color: $headings-color;
 }
 
 .gallery-container{ 
@@ -31,14 +31,13 @@ body{
         div{
             width: 100%;
             height: 100%;
-            background-color: #000;
+            background-color: $default-background;
             opacity: 0;
             @include flex;
             
             a{
-                font-family: Arial, sans-serif;
                 font-size: 18px;
-                color: #fff;
+                color: $color-on-hover-and-focus;
                 text-decoration: none;
                 text-transform: uppercase;
             }

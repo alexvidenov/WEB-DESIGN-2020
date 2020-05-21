@@ -3,10 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/WEB_DESIGN_2020/public_html/scss/style.scss</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/WEB_DESIGN_2020/public_html/contact_page.html</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/WEB_DESIGN_2020/public_html/scss/contact_page/_contact_section.scss</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/WEB_DESIGN_2020/public_html/index.html</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WEB_DESIGN/public_html/scss/contact_page/_contact_container.scss</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WEB_DESIGN/public_html/scss/contact_page/_contact_form.scss</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WEB_DESIGN/public_html/scss/_settings.scss</file>
         </group>
     </open-files>
 </project-private>

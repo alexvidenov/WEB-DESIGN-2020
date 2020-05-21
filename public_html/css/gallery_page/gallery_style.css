@@ -25,15 +25,23 @@ and open the template in the editor.
     Created on : May 19, 2020, 10:38:59 AM
     Author     : Alex Videnov
 */
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:38:59 AM
+    Author     : Alex Videnov
+*/
 body {
-  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.7)); }
+  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.5)); }
 
 .gallery-header {
-  color: rgba(255, 255, 255, 0.8);
   padding: 3rem;
   text-align: center;
-  font-size: 30px;
-  font-family: baloo; }
+  font-size: 1.8rem;
+  color: #cfe6e6; }
 
 .gallery-container {
   display: flex;
@@ -60,7 +68,6 @@ body {
       justify-content: center;
       align-items: center; }
       .gallery-container .single-image div a {
-        font-family: Arial, sans-serif;
         font-size: 18px;
         color: #fff;
         text-decoration: none;

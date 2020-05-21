@@ -40,7 +40,7 @@ and open the template in the editor.
         
         &:hover{
            background: $accent-color;
-           color: $navigation-link-color-on-hover; 
+           color: $color-on-hover-and-focus; 
            transition: 1s;
         }
     }
@@ -63,7 +63,7 @@ and open the template in the editor.
 nav ul{
     li:hover > ul{
         display: block;
-        color: $navigation-link-color-on-hover;
+        color: $color-on-hover-and-focus;
         padding-left: 2rem; 
         transition: 1s;
         
@@ -72,7 +72,7 @@ nav ul{
             background:$navigation-link-color;  
             
             a{
-              color: $navigation-link-color-on-hover;  
+              color: $color-on-hover-and-focus;  
             }
         }
     }
@@ -101,7 +101,7 @@ nav ul{
         
             &:hover, a:hover{
                 background: $background-list-item-color;
-                color: $navigation-link-color-on-hover; 
+                color: $color-on-hover-and-focus; 
                 transition: 1s;
             } 
         }

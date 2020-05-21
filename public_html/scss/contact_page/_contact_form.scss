@@ -13,9 +13,9 @@ and open the template in the editor.
 .form-heading h2{
     text-align: center;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: $font-size-normal;
     margin-bottom: 1.2rem;
-    color: #fff;
+    color: $headings-color;
 }
 
 .input-box{
@@ -24,7 +24,7 @@ and open the template in the editor.
     .icon{
         position: absolute;
         height: 2rem;
-        color: #fff;
+        color: $color-on-hover-and-focus;
         line-height: 2rem;
     }
     
@@ -42,10 +42,10 @@ and open the template in the editor.
     border: none;
     outline: none;
     width: 100%;
-    background: #fff;
-    color: #555;
+    background: $accent-color;
+    color: $navigation-link-color;
     height: 40px;
-    font-size: 15px;
+    font-size: $font-size-small;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;

@@ -10,13 +10,17 @@ and open the template in the editor.
 
 $mobile-breakpoint: 800px;
 
+$gallery-image-width: 300px;
+$gallery-image-height: 225px;
+
 $dropdown-icon-unicode: '\f0d7';
 
-$accent-color: aquamarine;
+$accent-color: #7af0e7;
 $navigation-link-color: #777;
-$navigation-link-color-on-hover: #fff;
-$background-list-item-color: #ddd;
-
+$color-on-hover-and-focus: #fff;
+$default-background: #000;
+$background-list-item-color: #ddd; 
+$headings-color: #cfe6e6;
 
 $font-size-big: 6rem;
 $font-size-medium: 4rem;
