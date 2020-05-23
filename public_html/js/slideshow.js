@@ -4,19 +4,23 @@
  * and open the template in the editor.
  */
 
-const slideshowImages = document.querySelectorAll(".slideshow img");
+const images = [
+    'url("images/slideshow_images/IMG_1.jpg")', 
+    'url("images/slideshow_images/IMG_2.jpg")', 
+    'url("images/slideshow_images/IMG_3.jpg")'
+];
 
-const nextImageDelay = 5000;
-let currentImageCounter = 0; 
+let num = 0;
+const hero = document.querySelector(".hero");
 
-slideshowImages[currentImageCounter].style.opacity = 1;
+setInterval(() => {
+    nextImage();
+}, 4000);
 
-setInterval(nextImage, nextImageDelay);
-
-function nextImage() {
-  slideshowImages[currentImageCounter].style.opacity = 0;
-  currentImageCounter = (currentImageCounter+1) % slideshowImages.length;
-  slideshowImages[currentImageCounter].style.opacity = 1;
-}
-
-
+const nextImage = () => {
+     num++;
+     if(num >= images.length) {
+        num = 0;
+     }
+     hero.setAttribute("style", "background:" + images[num] + "no-repeat center top/cover");
+};

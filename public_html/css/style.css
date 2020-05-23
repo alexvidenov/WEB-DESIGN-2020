@@ -59,6 +59,10 @@ and open the template in the editor.
   box-sizing: border-box;
   font-family: Roboto, Helvetica, Arial, sans-serif; }
 
+body {
+  overflow-x: hidden;
+  background: rgba(0, 0, 0, 0.7); }
+
 a {
   text-decoration: none; }
 
@@ -84,7 +88,7 @@ li {
       display: flex;
       text-align: center;
       text-decoration: none;
-      color: #777;
+      color: #171616;
       padding: 1rem; }
       .menu li a:hover {
         background: #7af0e7;
@@ -109,7 +113,7 @@ nav ul li:hover > ul {
   @media (min-width: 800px) {
     nav ul li:hover > ul {
       padding-left: 0;
-      background: #777; }
+      background: #171616; }
       nav ul li:hover > ul a {
         color: #fff; } }
 nav ul ul {
@@ -185,9 +189,10 @@ and open the template in the editor.
     Author     : Alex Videnov
 */
 .hero {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)); }
+  transition: background 2s;
+  background: url("../images/slideshow_images/IMG_3.jpg") no-repeat center top/cover; }
 
 .hero-text {
   display: none; }
@@ -226,25 +231,6 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /*
-    Created on : May 19, 2020, 7:09:43 PM
-    Author     : Alex Videnov
-*/
-.slideshow img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0;
-  transition: opacity 0.75s ease-in-out; }
-
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
     Created on : May 19, 2020, 8:47:46 PM
     Author     : Alex VIdenov
 */
@@ -275,9 +261,6 @@ and open the template in the editor.
     Created on : May 19, 2020, 10:38:59 AM
     Author     : Alex Videnov
 */
-body {
-  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.5)); }
-
 .gallery-header {
   padding: 3rem;
   text-align: center;
@@ -290,7 +273,8 @@ body {
   justify-content: center;
   align-items: center;
   padding: 5rem;
-  flex-direction: row; }
+  flex-direction: row;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), black); }
   .gallery-container .single-image {
     width: 300px;
     height: 225px;
@@ -302,7 +286,7 @@ body {
     .gallery-container .single-image div {
       width: 100%;
       height: 100%;
-      background-color: #000;
+      background-color: rgba(0, 0, 0, 0.7);
       opacity: 0;
       display: flex;
       flex-wrap: wrap;
@@ -381,7 +365,7 @@ and open the template in the editor.
   background-position: center; }
   .contact-container .form-container {
     padding: 2.5rem 3rem 2.5rem 3rem;
-    background-image: linear-gradient(45deg, #7af0e7, #000);
+    background-image: linear-gradient(45deg, #7af0e7, rgba(0, 0, 0, 0.7));
     border-radius: 0.5rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
@@ -401,6 +385,15 @@ and open the template in the editor.
 */
 /*
     Created on : May 19, 2020, 10:37:31 AM
+    Author     : Alex Videnov
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:38:59 AM
     Author     : Alex Videnov
 */
 /*
@@ -459,11 +452,75 @@ and open the template in the editor.
   outline: none;
   width: 100%;
   background: #7af0e7;
-  color: #777;
+  color: #171616;
   height: 40px;
   font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: bold;
   cursor: pointer; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 22, 2020, 10:23:58 AM
+    Author     : User
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:37:31 AM
+    Author     : Alex Videnov
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:38:59 AM
+    Author     : Alex Videnov
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:38:59 AM
+    Author     : Alex Videnov
+*/
+footer {
+  background: #d8e8eb;
+  padding: 4rem 0; }
+
+.footer-container {
+  margin: auto;
+  padding: 0 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+  .footer-container .footer-content {
+    width: 100%;
+    text-align: center; }
+
+.logo {
+  width: 20rem; }
+
+.social {
+  margin: 1.2rem 0; }
+  .social a {
+    color: #001a21;
+    margin-right: 1.5rem;
+    font-size: 1.8rem;
+    transition: 0.3s linear; }
+    .social a:hover {
+      color: #fc5c65; }
 
 /*# sourceMappingURL=style.css.map */

@@ -11,9 +11,10 @@ and open the template in the editor.
 @import '../mixins.scss';
 
 .hero{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    transition: background 2s;
+    background: url("../images/slideshow_images/IMG_3.jpg") no-repeat center top/cover;
 }
 
 .hero-text{

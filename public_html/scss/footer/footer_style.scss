@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 22, 2020, 10:23:58 AM
+    Author     : User
+*/
+
+@import '../mixins.scss';
+@import '../settings.scss';
+
+footer{
+    background: $footer-background;
+    padding: 4rem 0;
+}
+
+.footer-container{
+    margin: auto;
+    padding: 0 1.2rem;
+    @include flex;
+    
+    .footer-content{
+        width: 100%;
+        text-align: center; 
+    }
+
+}
+
+.logo{  
+    width: 20rem;
+}
+
+.social{
+    margin: 1.2rem 0;
+    
+    a{
+        color: $social-links-color;
+        margin-right: 1.5rem;
+        font-size: $font-size-normal;
+        transition: 0.3s linear;
+        
+        &:hover{
+            color: $social-links-hover-color;
+        }
+    }
+}
+

@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 22, 2020, 10:23:58 AM
+    Author     : User
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:37:31 AM
+    Author     : Alex Videnov
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:38:59 AM
+    Author     : Alex Videnov
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:38:59 AM
+    Author     : Alex Videnov
+*/
+footer {
+  background: #d8e8eb;
+  padding: 4rem 0; }
+
+.footer-container {
+  margin: auto;
+  padding: 0 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+  .footer-container .footer-content {
+    width: 100%;
+    text-align: center; }
+
+.logo {
+  width: 20rem; }
+
+.social {
+  margin: 1.2rem 0; }
+  .social a {
+    color: #001a21;
+    margin-right: 1.5rem;
+    font-size: 1.8rem;
+    transition: 0.3s linear; }
+    .social a:hover {
+      color: #fc5c65; }
+
+/*# sourceMappingURL=footer_style.css.map */
