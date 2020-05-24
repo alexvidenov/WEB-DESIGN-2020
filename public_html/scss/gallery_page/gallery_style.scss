@@ -11,23 +11,23 @@ and open the template in the editor.
 @import '../mixins.scss';
 @import '../settings.scss';
 
-body{
-    background: $default-background;
-}
-
-h5 {
+h5{
     font-weight: 500;
     line-height: 1.7em;
 }
 
-h6 {
-    color: #666;
-    font-size: 14px;
+h6{
+    color: $accent-color;
+    font-size: $font-size-normal;
+}
+
+body{
+    background: $default-background;
 }
 
 .products {
     @include flex;
-    padding: 5rem;
+    padding: 7rem;
     width: 100%;
     background: darken($default-background, 30%);
 }
@@ -38,7 +38,7 @@ h6 {
     padding: 2%;
     flex: 1 15%;
     background-color: $default-background;
-    box-shadow: 0px 0px 1px 0px #fff;
+    box-shadow: 0px 0px 1px 0px $color-on-hover-and-focus;
     
     .product-image{
     
@@ -55,9 +55,9 @@ h6 {
     }
     
     .product-info {
-        padding-top: 20px;
+        padding-top: 1.2rem;
         text-align: center;
-        color: red;
+        color: $accent-color;
     }
  
 }

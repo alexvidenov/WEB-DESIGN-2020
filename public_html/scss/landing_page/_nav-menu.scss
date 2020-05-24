@@ -35,7 +35,7 @@ and open the template in the editor.
         display: flex;
         text-align: center;
         text-decoration: none;
-        color: $navigation-link-color;
+        color: lighten($navigation-link-color, 50%);
         padding: 1rem; 
         
         &:hover{
@@ -108,12 +108,10 @@ nav ul{
     }
 }
 
-.move-right{
+.move-right-button{
     margin-right: 3rem;
     margin-top: 2rem;
-}
-
-.button{
+    
     @include landing-page-button;
     display: flex;
     float: right;

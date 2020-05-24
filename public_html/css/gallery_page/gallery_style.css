@@ -34,23 +34,23 @@ and open the template in the editor.
     Created on : May 19, 2020, 10:38:59 AM
     Author     : Alex Videnov
 */
-body {
-  background: rgba(0, 0, 0, 0.7); }
-
 h5 {
   font-weight: 500;
   line-height: 1.7em; }
 
 h6 {
-  color: #666;
-  font-size: 14px; }
+  color: #7af0e7;
+  font-size: 1.8rem; }
+
+body {
+  background: rgba(0, 0, 0, 0.7); }
 
 .products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 5rem;
+  padding: 7rem;
   width: 100%;
   background: rgba(0, 0, 0, 0.7); }
 
@@ -69,8 +69,8 @@ h6 {
   .product-card .product-image .img2 {
     content: url("../images/thumbnails/img2.jpg"); }
   .product-card .product-info {
-    padding-top: 20px;
+    padding-top: 1.2rem;
     text-align: center;
-    color: red; }
+    color: #7af0e7; }
 
 /*# sourceMappingURL=gallery_style.css.map */

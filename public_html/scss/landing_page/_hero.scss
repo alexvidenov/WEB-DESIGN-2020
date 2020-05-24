@@ -14,22 +14,18 @@ and open the template in the editor.
     width: 100vw;
     height: 100vh;
     transition: background 2s;
-    background: url("../images/slideshow_images/IMG_3.jpg") no-repeat center top/cover;
+    background: url("images/slideshow_images/IMG_3.jpg");
 }
 
 .hero-text{
-    display: none;
-    
-    @include mobile{
-        width: 100%;
-        position: absolute;
-        top: 70%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #eee;
-        text-align: center;
-        display: block;
-    }
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #eee;
+    text-align: center;
+    display: block;
     
     h1{
         font-size: $font-size-big;
@@ -49,4 +45,5 @@ and open the template in the editor.
         @include landing-page-button;
     }
 }
+
 
