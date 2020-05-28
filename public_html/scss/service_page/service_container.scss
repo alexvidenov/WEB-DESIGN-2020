@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 28, 2020, 4:44:23 PM
+    Author     : Alex Videnov
+*/
+
+@import '../mixins.scss';
+@import '../settings.scss';
+
+.service-area{
+    @include flex;
+    padding-top: 7rem;
+    width: 100%;
+    
+    .single-service{
+        position: relative;
+        @include flex;  
+        flex-direction: column;
+        width: 25rem;
+        height: auto;
+        border-radius: 0.5rem;
+        background-color: $default-background;
+        text-align: center;
+        margin: 1.2rem;
+        padding: 1.2rem;
+        transition: 1s;
+
+        &:hover{
+            background: $accent-color;
+        }
+        
+        // TODO add meaningful images
+
+        &:nth-child(1) .service-img{
+            background-image: url("../images/thumbnails/img1.jpg");
+        }
+
+        &:nth-child(2) .service-img{
+            background-image: url("../images/thumbnails/img1.jpg");
+        }
+
+        &:nth-child(3) .service-img{
+            background-image: url("../images/thumbnails/img1.jpg");
+        }
+
+        &:nth-child(4) .service-img{
+            background-image: url("../images/thumbnails/img1.jpg");
+        }
+
+        &:nth-child(5) .service-img{
+            background-image: url("../images/thumbnails/img1.jpg");
+        }
+    }
+}
+

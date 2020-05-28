@@ -1,0 +1,72 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 28, 2020, 4:44:23 PM
+    Author     : Alex Videnov
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:37:31 AM
+    Author     : Alex Videnov
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:38:59 AM
+    Author     : Alex Videnov
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:38:59 AM
+    Author     : Alex Videnov
+*/
+.service-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7rem;
+  width: 100%; }
+  .service-area .single-service {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25rem;
+    height: auto;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin: 1.2rem;
+    padding: 1.2rem;
+    transition: 1s; }
+    .service-area .single-service:hover {
+      background: #7af0e7; }
+    .service-area .single-service:nth-child(1) .service-img {
+      background-image: url("../images/thumbnails/img1.jpg"); }
+    .service-area .single-service:nth-child(2) .service-img {
+      background-image: url("../images/thumbnails/img1.jpg"); }
+    .service-area .single-service:nth-child(3) .service-img {
+      background-image: url("../images/thumbnails/img1.jpg"); }
+    .service-area .single-service:nth-child(4) .service-img {
+      background-image: url("../images/thumbnails/img1.jpg"); }
+    .service-area .single-service:nth-child(5) .service-img {
+      background-image: url("../images/thumbnails/img1.jpg"); }
+
+/*# sourceMappingURL=service_container.css.map */

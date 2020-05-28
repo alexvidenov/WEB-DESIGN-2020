@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 28, 2020, 5:50:45 PM
+    Author     : Alex Videnov
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:37:31 AM
+    Author     : Alex Videnov
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:38:59 AM
+    Author     : Alex Videnov
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 19, 2020, 10:38:59 AM
+    Author     : Alex Videnov
+*/
+.service-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 10rem;
+  border: 4px solid #ddd;
+  border-radius: 60%;
+  margin-bottom: 0.5rem;
+  padding: 1.2rem;
+  background-size: cover;
+  background-position: center center; }
+
+.service-text {
+  padding-top: 1.2rem; }
+  .service-text .service-header {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color: #0b605a; }
+  .service-text p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: #fff; }
+
+/*# sourceMappingURL=service_content.css.map */
