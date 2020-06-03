@@ -27,7 +27,10 @@ body{
 
 .products {
     @include flex;
-    padding: 7rem;
+    padding: 13rem 10rem 10rem 10rem;
+    @include mobile{
+        padding: 7rem;
+    }
     width: 100%;
     background: darken($default-background, 30%);
 }

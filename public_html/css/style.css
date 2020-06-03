@@ -203,13 +203,22 @@ and open the template in the editor.
   text-align: center;
   display: block; }
   .hero-text h1 {
-    font-size: 6rem;
+    font-size: 1.2rem;
     margin: 2rem 0; }
+    @media (min-width: 800px) {
+      .hero-text h1 {
+        font-size: 6rem; } }
   .hero-text h2 {
-    font-size: 4rem; }
+    font-size: 1.2rem; }
+    @media (min-width: 800px) {
+      .hero-text h2 {
+        font-size: 4rem; } }
   .hero-text p {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     margin-bottom: 5rem; }
+    @media (min-width: 800px) {
+      .hero-text p {
+        font-size: 1.8rem; } }
   .hero-text .btn {
     padding: 1.3rem;
     display: inline-block;
@@ -273,9 +282,12 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 7rem;
+  padding: 13rem 10rem 10rem 10rem;
   width: 100%;
   background: rgba(0, 0, 0, 0.7); }
+  @media (min-width: 800px) {
+    .products {
+      padding: 7rem; } }
 
 .product-card {
   display: flex;
@@ -592,15 +604,19 @@ and open the template in the editor.
   justify-content: center;
   align-items: center;
   margin: 1.2rem 0;
-  padding: 1.2rem; }
+  padding: 3rem; }
   .columns .column {
-    flex: 1;
-    margin: 0.3rem;
-    z-index: -100; }
-    .columns .column:first-child {
-      margin-left: 0; }
-    .columns .column:last-child {
-      margin-right: 0; }
+    flex-basis: 100%;
+    margin: 0 0 5px 0; }
+    @media (min-width: 800px) {
+      .columns .column {
+        flex: 1;
+        margin: 0.3rem;
+        z-index: -100; }
+        .columns .column:first-child {
+          margin-left: 0; }
+        .columns .column:last-child {
+          margin-right: 0; } }
     .columns .column img {
       width: 100%;
       height: 100%; }
@@ -615,6 +631,15 @@ and open the template in the editor.
       padding-top: 1.2rem;
       font-size: 1.8rem; }
 
+@media screen and (max-width: 980px) {
+  .columns .column {
+    margin-bottom: 5px;
+    flex-basis: 40%; }
+    .columns .column:nth-last-child(2) {
+      margin-right: 0; }
+    .columns .column:last-child {
+      flex-basis: 100%;
+      margin: 0; } }
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -656,8 +681,12 @@ and open the template in the editor.
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-top: 7rem;
+  padding-top: 10rem;
   width: 100%; }
+  @media (min-width: 800px) {
+    .service-area {
+      padding-top: 7rem;
+      width: 100%; } }
   .service-area .single-service {
     position: relative;
     display: flex;

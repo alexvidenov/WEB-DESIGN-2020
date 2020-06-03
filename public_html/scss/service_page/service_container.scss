@@ -13,8 +13,12 @@ and open the template in the editor.
 
 .service-area{
     @include flex;
-    padding-top: 7rem;
+    padding-top: 10rem;
     width: 100%;
+    @include mobile{
+        padding-top: 7rem;
+        width: 100%;
+    }
     
     .single-service{
         position: relative;

@@ -50,9 +50,12 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 7rem;
+  padding: 13rem 10rem 10rem 10rem;
   width: 100%;
   background: rgba(0, 0, 0, 0.7); }
+  @media (min-width: 800px) {
+    .products {
+      padding: 7rem; } }
 
 .product-card {
   display: flex;

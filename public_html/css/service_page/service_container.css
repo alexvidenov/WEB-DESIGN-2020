@@ -39,8 +39,12 @@ and open the template in the editor.
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-top: 7rem;
+  padding-top: 10rem;
   width: 100%; }
+  @media (min-width: 800px) {
+    .service-area {
+      padding-top: 7rem;
+      width: 100%; } }
   .service-area .single-service {
     position: relative;
     display: flex;
