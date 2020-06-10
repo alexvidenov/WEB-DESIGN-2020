@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;;EAIE;AACF;;;EAGE;AAEF,UAAW;EACT,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,UAAU;;AAGpB,eAAgB;EACd,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,MAAM;EACd,aAAa,EAAE,MAAM;EACrB,UAAU,EAAE,+BAA+B",
+"sources": ["../../scss/faq_page/faq_container.scss"],
+"names": [],
+"file": "faq_container.css"
+}

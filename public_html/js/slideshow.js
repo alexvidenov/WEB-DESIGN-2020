@@ -4,20 +4,20 @@
  * and open the template in the editor.
  */
 
-const images = [
+let images = [
     'url("images/slideshow_images/IMG_1.jpg")', 
     'url("images/slideshow_images/IMG_2.jpg")', 
     'url("images/slideshow_images/IMG_3.jpg")'
 ];
 
 let num = 0;
-const hero = document.querySelector(".hero");
+let hero = document.querySelector(".hero");
 
 setInterval(() => {
     nextImage();
 }, 4000);
 
-const nextImage = () => {
+let nextImage = () => {
      num++;
      if(num >= images.length) {
         num = 0;

@@ -16,6 +16,13 @@ and open the template in the editor.
     }
 }
 
+@mixin header{
+    text-align: center;
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    color: $headings-color;
+}
+
 @mixin landing-page-button{
     padding: 1.3rem;
     display: inline-block;

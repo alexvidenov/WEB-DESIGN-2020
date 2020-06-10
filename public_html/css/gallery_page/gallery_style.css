@@ -34,6 +34,12 @@ and open the template in the editor.
     Created on : May 19, 2020, 10:38:59 AM
     Author     : Alex Videnov
 */
+.gallery-header {
+  text-align: center;
+  margin: 1.5rem 0;
+  font-size: 2rem;
+  color: #cfe6e6; }
+
 h5 {
   font-weight: 500;
   line-height: 1.7em; }
@@ -42,17 +48,13 @@ h6 {
   color: #7af0e7;
   font-size: 1.8rem; }
 
-body {
-  background: rgba(0, 0, 0, 0.7); }
-
 .products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 13rem 10rem 10rem 10rem;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.7); }
+  padding: 10rem 10rem 10rem 10rem;
+  width: 100%; }
   @media (min-width: 800px) {
     .products {
       padding: 7rem; } }
@@ -65,7 +67,7 @@ body {
   flex-direction: column;
   padding: 2%;
   flex: 1 15%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.9);
   box-shadow: 0px 0px 1px 0px #fff; }
   .product-card .product-image .img1 {
     content: url("../images/thumbnails/img1.jpg"); }

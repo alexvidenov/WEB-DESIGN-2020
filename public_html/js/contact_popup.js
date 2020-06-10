@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-const contactForm = document.querySelector(".contact-container");
-const heroText = document.querySelector(".hero-text");
-    
-const button = document.querySelector(".move-right-button");
 
-const mq = window.matchMedia("(min-width: 600px)");
+let contactForm = document.querySelector(".contact-container");
+let heroText = document.querySelector(".hero-text");
+    
+let button = document.querySelector(".move-right-button");
+
+let mq = window.matchMedia("(min-width: 600px)");
 mq.addListener(WidthChange);
 WidthChange(mq);
 
@@ -20,12 +21,12 @@ button.addEventListener("click", () => {
     openForm();
 });
 
-const openForm = () => {
+let openForm = () => {
     contactForm.setAttribute("style", "display: flex");
     heroText.setAttribute("style", "display: none");
 };
 
-const closeForm = () => {
+let closeForm = () => {
     contactForm.setAttribute("style", "display: none");
     if (mq.matches) {
         heroText.setAttribute("style", "display: block");

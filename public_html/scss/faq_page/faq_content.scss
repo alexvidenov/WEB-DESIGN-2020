@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jun 10, 2020, 10:36:14 AM
+    Author     : Alex Videnov
+*/
+
+@import '../mixins.scss';
+@import '../settings.scss';
+
+.faq_header{
+  @include header;
+}
+
+.accordion-item-header {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  @include flex;
+  position: relative;
+  cursor: pointer;
+
+  &::after {
+    content: "\002B";
+    font-size: $font-size-normal;
+    position: absolute;
+    right: 1rem;
+  }
+
+  &.active::after {
+    content: "\2212";
+  }
+}
+
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion-item-body-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+}

@@ -4,7 +4,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /*
-    Created on : May 28, 2020, 4:23:44 PM
+    Created on : Jun 10, 2020, 10:36:14 AM
     Author     : Alex Videnov
 */
 /*
@@ -34,54 +34,40 @@ and open the template in the editor.
     Created on : May 19, 2020, 10:38:59 AM
     Author     : Alex Videnov
 */
-.about-header {
+.faq_header {
   text-align: center;
   margin: 1.5rem 0;
   font-size: 2rem;
   color: #cfe6e6; }
 
-.columns {
-  position: relative;
+.accordion-item-header {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 1.2rem 0;
-  padding: 3rem; }
-  .columns .column {
-    flex-basis: 100%;
-    margin: 0 0 5px 0; }
-    @media (min-width: 800px) {
-      .columns .column {
-        flex: 1;
-        margin: 0.3rem;
-        z-index: -100; }
-        .columns .column:first-child {
-          margin-left: 0; }
-        .columns .column:last-child {
-          margin-right: 0; } }
-    .columns .column img {
-      width: 100%;
-      height: 100%; }
-    .columns .column p {
-      font-size: 1.8rem;
-      letter-spacing: 0.2rem; }
-    .columns .column h2 {
-      padding: 1.2rem;
-      font-size: 1.8rem;
-      text-align: center; }
-    .columns .column h3 {
-      padding-top: 1.2rem;
-      font-size: 1.8rem; }
+  position: relative;
+  cursor: pointer; }
+  .accordion-item-header::after {
+    content: "\002B";
+    font-size: 1.8rem;
+    position: absolute;
+    right: 1rem; }
+  .accordion-item-header.active::after {
+    content: "\2212"; }
 
-@media screen and (max-width: 980px) {
-  .columns .column {
-    margin-bottom: 5px;
-    flex-basis: 40%; }
-    .columns .column:nth-last-child(2) {
-      margin-right: 0; }
-    .columns .column:last-child {
-      flex-basis: 100%;
-      margin: 0; } }
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out; }
 
-/*# sourceMappingURL=about_us_content.css.map */
+.accordion-item-body-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1; }
+
+/*# sourceMappingURL=faq_content.css.map */

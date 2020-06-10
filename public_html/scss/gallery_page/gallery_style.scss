@@ -11,6 +11,10 @@ and open the template in the editor.
 @import '../mixins.scss';
 @import '../settings.scss';
 
+.gallery-header{
+    @include header;
+}
+
 h5{
     font-weight: 500;
     line-height: 1.7em;
@@ -21,18 +25,13 @@ h6{
     font-size: $font-size-normal;
 }
 
-body{
-    background: $default-background;
-}
-
 .products {
     @include flex;
-    padding: 13rem 10rem 10rem 10rem;
+    padding: 10rem 10rem 10rem 10rem;
     @include mobile{
         padding: 7rem;
     }
     width: 100%;
-    background: darken($default-background, 30%);
 }
 
 .product-card {

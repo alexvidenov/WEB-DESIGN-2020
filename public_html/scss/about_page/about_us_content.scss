@@ -11,6 +11,10 @@ and open the template in the editor.
 @import '../mixins.scss';
 @import '../settings.scss';
 
+.about-header{
+    @include header;
+}
+
 .columns {
     position: relative;
     @include flex;
