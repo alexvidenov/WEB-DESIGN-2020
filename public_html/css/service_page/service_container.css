@@ -63,14 +63,12 @@ and open the template in the editor.
     .service-area .single-service:hover {
       background: #7af0e7; }
     .service-area .single-service:nth-child(1) .service-img {
-      background-image: url("../images/thumbnails/img1.jpg"); }
+      background-image: url("../images/service_images/kit.jpg"); }
     .service-area .single-service:nth-child(2) .service-img {
-      background-image: url("../images/thumbnails/img1.jpg"); }
+      background-image: url("../images/service_images/warranty.jpg"); }
     .service-area .single-service:nth-child(3) .service-img {
-      background-image: url("../images/thumbnails/img1.jpg"); }
+      background-image: url("../images/service_images/bike_repair.jpg"); }
     .service-area .single-service:nth-child(4) .service-img {
-      background-image: url("../images/thumbnails/img1.jpg"); }
-    .service-area .single-service:nth-child(5) .service-img {
-      background-image: url("../images/thumbnails/img1.jpg"); }
+      background-image: url("../images/service_images/kit_repair.jpg"); }
 
 /*# sourceMappingURL=service_container.css.map */

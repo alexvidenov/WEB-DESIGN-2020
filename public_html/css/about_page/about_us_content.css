@@ -47,7 +47,7 @@ and open the template in the editor.
   justify-content: center;
   align-items: center;
   margin: 1.2rem 0;
-  padding: 3rem; }
+  padding: 2rem; }
   .columns .column {
     flex-basis: 100%;
     margin: 0 0 5px 0; }
@@ -61,6 +61,7 @@ and open the template in the editor.
         .columns .column:last-child {
           margin-right: 0; } }
     .columns .column img {
+      padding-bottom: 5rem;
       width: 100%;
       height: 100%; }
     .columns .column p {

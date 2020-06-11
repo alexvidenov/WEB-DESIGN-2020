@@ -37,27 +37,22 @@ and open the template in the editor.
             background: $accent-color;
         }
         
-        // TODO add meaningful images
-
         &:nth-child(1) .service-img{
-            background-image: url("../images/thumbnails/img1.jpg");
+            background-image: url("../images/service_images/kit.jpg");
         }
 
         &:nth-child(2) .service-img{
-            background-image: url("../images/thumbnails/img1.jpg");
+            background-image: url("../images/service_images/warranty.jpg");
         }
 
         &:nth-child(3) .service-img{
-            background-image: url("../images/thumbnails/img1.jpg");
+            background-image: url("../images/service_images/bike_repair.jpg");
         }
 
         &:nth-child(4) .service-img{
-            background-image: url("../images/thumbnails/img1.jpg");
+            background-image: url("../images/service_images/kit_repair.jpg");
         }
 
-        &:nth-child(5) .service-img{
-            background-image: url("../images/thumbnails/img1.jpg");
-        }
     }
 }
 

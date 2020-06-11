@@ -11,7 +11,7 @@ accordionItemHeaders.forEach(accordionItemHeader => {
     
     accordionItemHeader.classList.toggle("active");
     let accordionItemBody = accordionItemHeader.nextElementSibling;
-    accordionItemHeader.classList.contains("active") ? accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px"
+    accordionItemHeader.classList.contains("active") ? accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight*1.35 + "px"
                                                      : accordionItemBody.style.maxHeight = 0;
     
   });
