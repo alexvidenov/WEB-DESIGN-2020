@@ -70,9 +70,19 @@ h6 {
   background-color: rgba(0, 0, 0, 0.9);
   box-shadow: 0px 0px 1px 0px #fff; }
   .product-card .product-image .img1 {
-    content: url("../images/thumbnails/img2.jpg"); }
+    content: url("../images/thumbnails/img1.jpg"); }
   .product-card .product-image .img2 {
     content: url("../images/thumbnails/img2.jpg"); }
+  .product-card .product-image .img3 {
+    content: url("../images/thumbnails/img3.jpg"); }
+  .product-card .product-image .img4 {
+    content: url("../images/thumbnails/img4.jpg"); }
+  .product-card .product-image .img5 {
+    content: url("../images/thumbnails/img5.jpg"); }
+  .product-card .product-image .img6 {
+    content: url("../images/thumbnails/img6.jpg"); }
+  .product-card .product-image .img7 {
+    content: url("../images/thumbnails/img7.jpg"); }
   .product-card .product-info {
     padding-top: 1.2rem;
     text-align: center;

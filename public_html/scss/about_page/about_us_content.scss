@@ -27,7 +27,10 @@ and open the template in the editor.
         @include mobile{
             flex: 1;
             margin: 0.3rem;
-            &:first-child { margin-left: 0; }
+            &:first-child { 
+                margin-top: -12rem;
+                margin-left: 0; 
+            }
             &:last-child { margin-right: 0; }
             z-index: -100;  
         }
@@ -39,18 +42,21 @@ and open the template in the editor.
         }
   
         p{
+            color: darken($color-on-hover-and-focus, 20%);
             font-size: $font-size-normal;
             letter-spacing: 0.2rem;
         }
   
         h2{
+            color: darken($color-on-hover-and-focus, 30%);
             padding: 1.2rem;
             font-size: $font-size-normal;
             text-align: center;
         }
         
         h3{
-            padding-top: 1.2rem;
+            color: darken($accent-color, 30%);
+            padding-top: 3rem;
             font-size: $font-size-normal;
         }
     }
