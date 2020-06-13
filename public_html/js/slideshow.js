@@ -13,6 +13,8 @@ let images = [
 let num = 0;
 let hero = document.querySelector(".hero");
 
+hero.setAttribute("style", "background:" + images[2] + "no-repeat center top/cover");
+
 setInterval(() => {
     nextImage();
 }, 4000);

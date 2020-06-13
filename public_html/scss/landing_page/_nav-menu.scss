@@ -49,15 +49,10 @@ and open the template in the editor.
 } 
 
 .dropdown > a:after{
-  font-family: fontAwesome;
-  content: $dropdown-icon-unicode;
   padding: 2px;
   
     .dropdown > a:after{
-        font-family: fontAwesome;
-        content: $dropdown-icon-unicode;
         padding: 1px;
-        transform: rotate(-90deg); 
     }
 }
 
